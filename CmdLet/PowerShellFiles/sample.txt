@@ -1,0 +1,8 @@
+Remove-Item function:Get-SummeLokal
+
+$scriptdir = "c:\MVA\CSharpSnippets\CmdLet\Demo"
+Import-Module $scriptdir\ScriptSample.ps1;
+
+Get-SummeLokal 40 2 -verbose
+
+Get-SumLocal 40 2 | Get-SumLocal 8
